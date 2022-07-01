@@ -3,8 +3,6 @@ let htmlButton = document.getElementById('button-html');
 let cssButton = document.getElementById('button-css');
 let javascriptButton = document.getElementById('button-javascript');
 
-
-
 htmlButton.addEventListener('click', function(){
     let post = document.getElementById('post');
     let pTag = document.createElement('p');
